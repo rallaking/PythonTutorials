@@ -1,30 +1,23 @@
-# Conda environment with environment.yml
+# BIA-tutorials
+Tutorials for BIA CCTB644
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb)
-
-A Binder-compatible repo with an `environment.yml` file.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rallaking/PythonTutorials/master)
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
+https://mybinder.org/v2/gh/rallaking/PythonTutorials/master
 
-## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
-depend, specified as though they were created using the following `conda` commands:
 
-```
-source activate example-environment
-conda env export --no-builds -f environment.yml
-```
+## Notes regarding these tutorials
+The tutorials are intended to walk you through the code required to execute the various techniques for machine learning. Each step is outlined with an explanation of the code, an image of the code, and a cell for you to type and run the code. You must run each cell in the order provided for the code to execute properly.
 
-Note that the only libraries available to you will be the ones specified in
-the `environment.yml`, so be sure to include everything that you need! 
+## Tutorial Goals
+The purpose of these tutorials is to provide hands-on experience executing code, as well as providing an environment where you can explore the code and experience the results as the code is run. Take as much time as you need to complete the tutorials in the order indicated.  
 
-Also note that conda will possibly try to include OS-specific packages in `environment.yml`, so you
-may have to manually prune `environment.yml` to get rid of these packages. Confirmed Mac-OSX-specific
-packages that should be removed are:
+The environment you are working in is your own sandbox. Feel free to comment out the successful code you've run and try some variations on the code to explore some of the options. It's ok to get errors. It's ok to try out different things to see what you can do.
 
-* libcxxabi=4.0.1
-* appnope=0.1.0
-* libgfortran=3.0.1
-* libcxx=4.0.1
+## Aim for understanding, not speed
+Completing quickly is not the same as completing with understanding. Focus on understanding what the tutorial is explaining, not on running code as fast as you can. The sequence of the tutorials is designed to guide your learning, so focus on learning each one before moving to the next one.
+
+## Errors are not bad! 
+Remember that error messages are not bad, they are there to help you fix your code. If you get an error, read the message and then review your code to see what needs to be fixed.
