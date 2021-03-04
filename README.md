@@ -7,6 +7,7 @@ Access this Binder by clicking the blue badge above or at the following URL:
 
 https://mybinder.org/v2/gh/rallaking/PythonTutorials/master
 
+##### NOTE: Using Internet Explorer as your web browser may cause significant delays. 
 
 ## Notes regarding these tutorials
 The tutorials are intended to walk you through the code required to execute the various techniques for machine learning. Each step is outlined with an explanation of the code, an image of the code, and a cell for you to type and run the code. You must run each cell in the order provided for the code to execute properly.
