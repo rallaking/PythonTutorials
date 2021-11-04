@@ -1,11 +1,11 @@
 # BIA-tutorials
 Tutorials for BIA CCTB644
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rallaking/PythonTutorials/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rallaking/PythonTutorials/main)
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-https://mybinder.org/v2/gh/rallaking/PythonTutorials/master
+https://mybinder.org/v2/gh/rallaking/PythonTutorials/main
 
 ##### NOTE: Using Internet Explorer as your web browser may cause significant delays. 
 
